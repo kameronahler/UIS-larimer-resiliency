@@ -1,3 +1,7 @@
+/* @override 
+	https://larimercompplan.com/sites/larimercompplan.com/files/css_injector/css_injector_2.css?oq841t */
+
+
 /* ================================
 
 Engaging Plans Styling Boilerplate
@@ -22,24 +26,24 @@ Momentum scrolling not working on touch devices
 Accessibility Concerns
 -----------------*/
 // Font scaling
-@import "src/scss/partials/ep/fonts/global";
-@import "src/scss/partials/ep/fonts/participate";
-@import "src/scss/partials/ep/fonts/events";
-@import "src/scss/partials/ep/fonts/contact";
-@import "src/scss/partials/ep/fonts/open-question";
+// @import "src/scss/partials/ep/fonts/global";
+// @import "src/scss/partials/ep/fonts/participate";
+// @import "src/scss/partials/ep/fonts/events";
+// @import "src/scss/partials/ep/fonts/contact";
+// @import "src/scss/partials/ep/fonts/open-question";
 
 // AA Color Contrast
-@import "src/scss/partials/ep/colors/global";
+// @import "src/scss/partials/ep/colors/global";
 
 
 
 /* -----------------
 Brightpages 3.0
 -----------------*/
-@import "src/scss/partials/ep/bp3/_01-base";
-@import "src/scss/partials/ep/bp3/_02-layout";
-@import "src/scss/partials/ep/bp3/_04-state";
-@import "src/scss/partials/ep/bp3/_05-theme";
+// @import "src/scss/partials/ep/bp3/_01-base";
+// @import "src/scss/partials/ep/bp3/_02-layout";
+// @import "src/scss/partials/ep/bp3/_04-state";
+// @import "src/scss/partials/ep/bp3/_05-theme";
 
 // this has styles for bundles from DOLA but is left out by default
 // @import "partials/ep/bp3/_03-modules";
