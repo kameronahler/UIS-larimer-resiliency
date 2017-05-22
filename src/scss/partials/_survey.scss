@@ -188,9 +188,26 @@ question formatting
 	}
 }
 
+
 /* ----------------------------
 submit
 ------------------------------*/
 .form-actions{
 	text-align:center;
+}
+
+
+/* ----------------------------
+share links
+------------------------------*/
+.share-links{
+	width:100%;
+	text-align:center;
+
+	.links,
+	.print-link{
+		float:none;
+		vertical-align:top;
+		display:inline-block;;
+	}
 }
