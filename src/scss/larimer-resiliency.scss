@@ -1,5 +1,4 @@
-/* @override 
-	https://larimercompplan.com/sites/larimercompplan.com/files/css_injector/css_injector_2.css?oq841t */
+/* @override https://larimercompplan.com/sites/larimercompplan.com/files/css_injector/css_injector_2.css?oq841t */
 
 
 /* ================================
@@ -26,11 +25,11 @@ Momentum scrolling not working on touch devices
 Accessibility Concerns
 -----------------*/
 // Font scaling
-// @import "src/scss/partials/ep/fonts/global";
-// @import "src/scss/partials/ep/fonts/participate";
-// @import "src/scss/partials/ep/fonts/events";
-// @import "src/scss/partials/ep/fonts/contact";
-// @import "src/scss/partials/ep/fonts/open-question";
+@import "src/scss/partials/ep/fonts/global";
+@import "src/scss/partials/ep/fonts/participate";
+@import "src/scss/partials/ep/fonts/events";
+@import "src/scss/partials/ep/fonts/contact";
+@import "src/scss/partials/ep/fonts/open-question";
 
 // AA Color Contrast
 // @import "src/scss/partials/ep/colors/global";
@@ -70,4 +69,7 @@ Webforms With Grid Questions
 Project Specific
 
 ==================================*/
+@import "src/scss/partials/global";
+@import "src/scss/partials/survey";
+
 

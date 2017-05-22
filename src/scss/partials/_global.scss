@@ -1,0 +1,9 @@
+// long top nav fixes
+#block-system-main-menu{
+	@include bp(md){
+		padding-top:65px !important;
+	}
+	@include bp(lg){
+		padding-top:0 !important;
+	}
+}
